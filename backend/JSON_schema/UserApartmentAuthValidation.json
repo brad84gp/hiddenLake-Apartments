@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "username": {
+        "type": "string"
+      },
+      "token" : {
+        "tpye" : "string"
+      },
+      "isAuthenticated": {
+        "type": "boolean"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "username",
+      "token",
+      "isAuthenticated"
+    ]
+  }

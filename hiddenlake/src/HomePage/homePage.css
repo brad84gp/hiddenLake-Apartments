@@ -1,0 +1,16 @@
+
+
+
+#video{
+    width: 110%;
+    margin-left: -2.5em;
+    border: 2px solid black;
+}
+
+#aptImg{
+    width: 450px;
+    border: 2px solid grey;
+    box-shadow: 1em 1em 1em black;
+    margin: 3em 1em;
+    
+}
