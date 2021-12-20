@@ -2,7 +2,7 @@
 
 
 #video{
-    width: 110%;
+    width: 100%;
     margin-left: -2.5em;
     border: 2px solid black;
 }
@@ -10,7 +10,35 @@
 #aptImg{
     width: 450px;
     border: 2px solid grey;
-    box-shadow: 1em 1em 1em black;
+    box-shadow: .5em .5em 1em red;
     margin: 3em 1em;
-    
+}
+
+#aptImg:hover{
+    margin-left: -1em;
+    margin-top: 2.75em;
+    box-shadow: 1em 1em 1em red;
+}
+
+#aptSlogan{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin: 1em;
+    padding: 5%;
+}
+
+#aptDescription{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    padding: 4%;
+}
+
+#colSlogan{
+    border-right: 2.5px solid tomato;
+    border-bottom: 5px solid tomato;
+}
+
+#colDesc{
+    border-left: 2.5px solid tomato;
+    border-top: 5px solid tomato;
 }

@@ -13,7 +13,7 @@ const IntroVideo = () => {
         <Container fluid className='videoContainer'>
             <Row>
                 <Col>
-                    <video id="video" muted loop controls video autoPlay >
+                    <video id="video" muted loop controls video="true" autoPlay >
                         <source src={introVideo} type='video/mp4'></source>
                     </video>
                 </Col>
