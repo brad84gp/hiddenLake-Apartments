@@ -1,0 +1,39 @@
+#imgsDiv{
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+
+#prev{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    font-size: x-large;
+}
+
+#next{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    font-size: x-large;
+}
+
+#prev:hover, #next:hover{
+    background-color: black;
+    color: white;
+}
+
+
+img{
+    width: 100%;
+}

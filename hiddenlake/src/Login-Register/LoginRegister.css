@@ -1,0 +1,55 @@
+#switch {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.slider{
+    display: block;
+    width: 250px;
+    height: 50px;
+    background-color: #477a85;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #477a8550;
+    margin-left: 25%;
+}
+
+
+.slider::after {
+    content: "";
+    width: 45px;
+    height: 45px;
+    background-color: #e8f5f7;
+    position: absolute;
+    border-radius: 70px;;
+    top: 2px;
+    left: 5px;
+    transition: 0.5s;
+}
+
+.slider::before{
+    content: "Login";
+    position: absolute;
+    right: 35%;
+    top: 10%;
+    font-size: x-large;
+}
+
+#switch:checked + .slider:after {
+    left: calc(100% - 10px);
+    transform: translateX(-100%);
+}
+
+#switch:checked + .slider{
+    background-color: tomato;
+}
+
+#switch:checked + .slider:before{
+    content: "Register";
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}

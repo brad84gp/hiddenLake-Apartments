@@ -1,0 +1,12 @@
+.formDiv{
+    padding: 5%;
+}
+
+button{
+    margin-top: 2em;
+}
+
+#radioBtns{
+    display: inline-block;
+    margin-left: 1em;
+}

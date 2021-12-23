@@ -5,6 +5,7 @@ import AptImages from './aptImages'
 import ContactForm from './contactForm'
 
 import './homePage.css'
+import InteriorExteriorImages from './interiorExteriorImgs'
 
 
 
@@ -41,15 +42,23 @@ const HomePage = () => {
                 </Col>
             </Row>
 
-            <Row xs='1' md='2' >
+            <Row>
                 <Col>
+                    <InteriorExteriorImages />
+                </Col>
+            </Row>
+
+            <Row xs='1' md='2' style={{marginTop : '2em'}}>
+                <Col id="colForm">
                     <ContactForm />
                 </Col>
-                <Col>
+                <Col id="aptInfo">
                     <Row>
                         <Col>
-                            <h3>Business Hours: </h3>
+                            <h3 style={{textAlign : 'center'}}>Business Hours / Contact Information </h3>
                         </Col>
+                    </Row>
+                    <Row style={{marginTop : '4em'}}>
                         <Col>
                             <ul>
                                 <li>Monday - Friday: 8:00am to 5:00pm</li>
@@ -57,14 +66,9 @@ const HomePage = () => {
                                 <li>Closed on Sundays</li>
                             </ul>
                         </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <h3>Contact Information: </h3>
-                        </Col>
                         <Col>
                             <ul>
-                                <li>Email: hiddenLakeManagement@hiddenlake.com</li>
+                                <li>Email: hiddenLakeApts@hla.com</li>
                                 <li>Phone: 555-555-5555</li>
                             </ul>
                         </Col>

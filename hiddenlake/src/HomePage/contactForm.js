@@ -1,11 +1,13 @@
 import React from 'react'
 
-import { Form, Label, Input, FormGroup, Button} from 'reactstrap'
+import './contactForm.css'
+
+import { Form, Label, Input, FormGroup, Button, legend} from 'reactstrap'
 
 const ContactForm = () => {
 
     return (
-        <div>
+        <div className='formDiv'>
             <Form inline>
                 <FormGroup>
                 <Label
@@ -38,17 +40,73 @@ const ContactForm = () => {
                 </FormGroup>
                 {' '}
                 <FormGroup>
-                    <Label for="exampleText">
+                    <Label for="textArea">
                     Questions / Comments
                     </Label>
                     <Input
-                    id="exampleText"
+                    id="textArea"
                     name="text"
                     placeholder='Share any questions you might have!'
                     type="textarea"
                     />
                 </FormGroup>
-                <Button>
+                <FormGroup tag="fieldset" >
+                    <legend>
+                        Select apartments you're interested in
+                    </legend>
+                    <FormGroup check id="radioBtns">
+                        <Input
+                        name="the pebble"
+                        type='checkbox'
+                        />
+                        {' '}
+                        <Label check>
+                            The Pebble
+                        </Label>
+                    </FormGroup>
+                    <FormGroup check id="radioBtns">
+                        <Input
+                        name="the shoreline"
+                        type='checkbox'
+                        />
+                        {' '}
+                        <Label check>
+                            The Shoreline
+                        </Label>
+                    </FormGroup>
+                    <FormGroup check id="radioBtns">
+                        <Input
+                        name="the gentle breeze"
+                        type='checkbox'
+                        />
+                        {' '}
+                        <Label check>
+                            The Gentle Breeze
+                        </Label>
+                    </FormGroup>
+                    <FormGroup check id="radioBtns">
+                        <Input
+                        name="the cove"
+                        type='checkbox'
+                        />
+                        {' '}
+                        <Label check>
+                            The Cove
+                        </Label>
+                    </FormGroup>
+                    <FormGroup check id="radioBtns">
+                        <Input
+                        name="the aquatic"
+                        type='checkbox'
+                        />
+                        {' '}
+                        <Label check>
+                            The Aquatic
+                        </Label>
+                    </FormGroup>
+
+                </FormGroup>
+                <Button color='primary'>
                 Submit
                 </Button>
             </Form>

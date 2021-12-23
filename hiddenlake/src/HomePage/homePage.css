@@ -42,3 +42,18 @@
     border-left: 2.5px solid tomato;
     border-top: 5px solid tomato;
 }
+
+#colForm{
+    border-top: 5px solid tomato;
+    border-right: 2.5px solid tomato;
+}
+
+#aptInfo{
+    border-bottom: 5px solid tomato;
+    border-left: 2.5px solid tomato;
+    padding: 3%;
+}
+
+ul{
+    list-style: none;
+}
