@@ -1,0 +1,13 @@
+#aptInfoDiv{
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    width: max-content;
+    color: black;
+    overflow: hidden;
+    transition: color 1s, top 1s;
+}
+
+#toggleCol{
+    width: 0;
+}

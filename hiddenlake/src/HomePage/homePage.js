@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Container, Row, Col } from 'reactstrap'
-import AptImages from './aptImages'
+import AptImages from '../ApartmentFiles/aptImages'
 import ContactForm from './contactForm'
 
 import './homePage.css'
