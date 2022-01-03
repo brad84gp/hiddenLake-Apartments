@@ -33,7 +33,7 @@ class ApartmentAPI {
     }
 
     static async getApartmentInfo(){
-        let response = await this.request('apartments')
+        let response = await this.request('apartments/apt-information')
         return response.data
     }
 

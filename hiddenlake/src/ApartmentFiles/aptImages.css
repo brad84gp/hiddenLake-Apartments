@@ -1,4 +1,4 @@
-#aptInfoDiv{
+#aptTitle{
     position: absolute;
     text-align: center;
     top: 75%;
@@ -8,6 +8,21 @@
     transition: color 1s, top 1s;
 }
 
-#toggleCol{
-    width: 0;
+
+#aptInfoDiv{
+    position: absolute;
+    
+}
+
+#aptData{
+    position: absolute;
+    bottom: 25%;
+    font-size: 20px;
+    height: 0%;
+    overflow-y: hidden;
+    transition: height 2s;
+}
+
+#aptData li{
+    list-style-type: none;
 }

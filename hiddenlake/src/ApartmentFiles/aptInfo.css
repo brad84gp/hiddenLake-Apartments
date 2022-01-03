@@ -1,34 +1,8 @@
 
-#aptInfoSideView{
+#aptInfoView{
     position: absolute;
-    left: -5%;
-    top: 0;
-    height: 100vh;
-    width: 0;
-    background-color: rgb(182, 180, 180);
-    opacity: .99;
-    z-index: 2;
-    transition: width 1.5s;
-    behavior: smooth;
+    color: red;
+    background-color: blue;
 }
 
-#btn{
-    position: absolute;
-    top: 0;
-    right: 5%;
-}
 
-#overlayImg{
-    height: 100vh;
-}
-
-#aptData{
-    position: relative;
-    margin: 5em auto;
-    font-size: 20px;
-}
-
-#aptData li{
-    margin: 1em;
-    list-style-type: square;
-}
