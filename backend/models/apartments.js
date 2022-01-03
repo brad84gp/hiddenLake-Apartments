@@ -15,6 +15,11 @@ class Apartments{
         return result.rows
     }
 
+    static async getApartmentDetails(){
+        const results = await db.query(`SELECT * FROM apartmentDetails`)
+        return results.rows
+    }
+
 
     // updates apartment rent status to true if apt exists in apartments table and monthly income, credit score are correct
     // if aparmtnet is already rented, returns false

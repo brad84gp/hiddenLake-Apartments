@@ -17,6 +17,15 @@ router.get("/", async function (req, res, next) {
     }
 })
 
+router.get("/apt-information", async (req, res, next) =>{
+    try{
+        const apartments = await Apartments.getApartmentDetails()
+        return res.json(apartments)
+    }catch (err){
+        return next(err)
+    }
+})
+
 
 
 module.exports = router;
